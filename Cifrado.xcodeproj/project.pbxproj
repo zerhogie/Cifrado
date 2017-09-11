@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9029229F1F55D16500E40934 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9029229E1F55D16500E40934 /* AppDelegate.swift */; };
+		902922A11F55D16500E40934 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902922A01F55D16500E40934 /* ViewController.swift */; };
+		902922A31F55D16500E40934 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 902922A21F55D16500E40934 /* Assets.xcassets */; };
+		902922A61F55D16500E40934 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902922A41F55D16500E40934 /* Main.storyboard */; };
+		902922B11F55D16500E40934 /* CifradoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902922B01F55D16500E40934 /* CifradoTests.swift */; };
+		902922BC1F55D16500E40934 /* CifradoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902922BB1F55D16500E40934 /* CifradoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		902922AD1F55D16500E40934 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 902922931F55D16500E40934 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9029229A1F55D16500E40934;
+			remoteInfo = Cifrado;
+		};
+		902922B81F55D16500E40934 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 902922931F55D16500E40934 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9029229A1F55D16500E40934;
+			remoteInfo = Cifrado;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9029229B1F55D16500E40934 /* Cifrado.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cifrado.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9029229E1F55D16500E40934 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		902922A01F55D16500E40934 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		902922A21F55D16500E40934 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		902922A51F55D16500E40934 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		902922A71F55D16500E40934 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		902922AC1F55D16500E40934 /* CifradoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CifradoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		902922B01F55D16500E40934 /* CifradoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CifradoTests.swift; sourceTree = "<group>"; };
+		902922B21F55D16500E40934 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		902922B71F55D16500E40934 /* CifradoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CifradoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		902922BB1F55D16500E40934 /* CifradoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CifradoUITests.swift; sourceTree = "<group>"; };
+		902922BD1F55D16500E40934 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		902922981F55D16500E40934 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902922A91F55D16500E40934 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902922B41F55D16500E40934 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		902922921F55D16500E40934 = {
+			isa = PBXGroup;
+			children = (
+				9029229D1F55D16500E40934 /* Cifrado */,
+				902922AF1F55D16500E40934 /* CifradoTests */,
+				902922BA1F55D16500E40934 /* CifradoUITests */,
+				9029229C1F55D16500E40934 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9029229C1F55D16500E40934 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9029229B1F55D16500E40934 /* Cifrado.app */,
+				902922AC1F55D16500E40934 /* CifradoTests.xctest */,
+				902922B71F55D16500E40934 /* CifradoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9029229D1F55D16500E40934 /* Cifrado */ = {
+			isa = PBXGroup;
+			children = (
+				9029229E1F55D16500E40934 /* AppDelegate.swift */,
+				902922A01F55D16500E40934 /* ViewController.swift */,
+				902922A21F55D16500E40934 /* Assets.xcassets */,
+				902922A41F55D16500E40934 /* Main.storyboard */,
+				902922A71F55D16500E40934 /* Info.plist */,
+			);
+			path = Cifrado;
+			sourceTree = "<group>";
+		};
+		902922AF1F55D16500E40934 /* CifradoTests */ = {
+			isa = PBXGroup;
+			children = (
+				902922B01F55D16500E40934 /* CifradoTests.swift */,
+				902922B21F55D16500E40934 /* Info.plist */,
+			);
+			path = CifradoTests;
+			sourceTree = "<group>";
+		};
+		902922BA1F55D16500E40934 /* CifradoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				902922BB1F55D16500E40934 /* CifradoUITests.swift */,
+				902922BD1F55D16500E40934 /* Info.plist */,
+			);
+			path = CifradoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9029229A1F55D16500E40934 /* Cifrado */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 902922C01F55D16500E40934 /* Build configuration list for PBXNativeTarget "Cifrado" */;
+			buildPhases = (
+				902922971F55D16500E40934 /* Sources */,
+				902922981F55D16500E40934 /* Frameworks */,
+				902922991F55D16500E40934 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cifrado;
+			productName = Cifrado;
+			productReference = 9029229B1F55D16500E40934 /* Cifrado.app */;
+			productType = "com.apple.product-type.application";
+		};
+		902922AB1F55D16500E40934 /* CifradoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 902922C31F55D16500E40934 /* Build configuration list for PBXNativeTarget "CifradoTests" */;
+			buildPhases = (
+				902922A81F55D16500E40934 /* Sources */,
+				902922A91F55D16500E40934 /* Frameworks */,
+				902922AA1F55D16500E40934 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				902922AE1F55D16500E40934 /* PBXTargetDependency */,
+			);
+			name = CifradoTests;
+			productName = CifradoTests;
+			productReference = 902922AC1F55D16500E40934 /* CifradoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		902922B61F55D16500E40934 /* CifradoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 902922C61F55D16500E40934 /* Build configuration list for PBXNativeTarget "CifradoUITests" */;
+			buildPhases = (
+				902922B31F55D16500E40934 /* Sources */,
+				902922B41F55D16500E40934 /* Frameworks */,
+				902922B51F55D16500E40934 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				902922B91F55D16500E40934 /* PBXTargetDependency */,
+			);
+			name = CifradoUITests;
+			productName = CifradoUITests;
+			productReference = 902922B71F55D16500E40934 /* CifradoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		902922931F55D16500E40934 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = zerhogie;
+				TargetAttributes = {
+					9029229A1F55D16500E40934 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = TG8ZRC4DCX;
+						ProvisioningStyle = Automatic;
+					};
+					902922AB1F55D16500E40934 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = TG8ZRC4DCX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9029229A1F55D16500E40934;
+					};
+					902922B61F55D16500E40934 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = TG8ZRC4DCX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9029229A1F55D16500E40934;
+					};
+				};
+			};
+			buildConfigurationList = 902922961F55D16500E40934 /* Build configuration list for PBXProject "Cifrado" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 902922921F55D16500E40934;
+			productRefGroup = 9029229C1F55D16500E40934 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9029229A1F55D16500E40934 /* Cifrado */,
+				902922AB1F55D16500E40934 /* CifradoTests */,
+				902922B61F55D16500E40934 /* CifradoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		902922991F55D16500E40934 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902922A31F55D16500E40934 /* Assets.xcassets in Resources */,
+				902922A61F55D16500E40934 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902922AA1F55D16500E40934 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902922B51F55D16500E40934 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		902922971F55D16500E40934 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902922A11F55D16500E40934 /* ViewController.swift in Sources */,
+				9029229F1F55D16500E40934 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902922A81F55D16500E40934 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902922B11F55D16500E40934 /* CifradoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902922B31F55D16500E40934 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902922BC1F55D16500E40934 /* CifradoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		902922AE1F55D16500E40934 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9029229A1F55D16500E40934 /* Cifrado */;
+			targetProxy = 902922AD1F55D16500E40934 /* PBXContainerItemProxy */;
+		};
+		902922B91F55D16500E40934 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9029229A1F55D16500E40934 /* Cifrado */;
+			targetProxy = 902922B81F55D16500E40934 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		902922A41F55D16500E40934 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				902922A51F55D16500E40934 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		902922BE1F55D16500E40934 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		902922BF1F55D16500E40934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		902922C11F55D16500E40934 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TG8ZRC4DCX;
+				INFOPLIST_FILE = Cifrado/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zerhogie.Cifrado;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		902922C21F55D16500E40934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TG8ZRC4DCX;
+				INFOPLIST_FILE = Cifrado/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zerhogie.Cifrado;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		902922C41F55D16500E40934 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TG8ZRC4DCX;
+				INFOPLIST_FILE = CifradoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zerhogie.CifradoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cifrado.app/Contents/MacOS/Cifrado";
+			};
+			name = Debug;
+		};
+		902922C51F55D16500E40934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TG8ZRC4DCX;
+				INFOPLIST_FILE = CifradoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zerhogie.CifradoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cifrado.app/Contents/MacOS/Cifrado";
+			};
+			name = Release;
+		};
+		902922C71F55D16500E40934 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TG8ZRC4DCX;
+				INFOPLIST_FILE = CifradoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zerhogie.CifradoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Cifrado;
+			};
+			name = Debug;
+		};
+		902922C81F55D16500E40934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TG8ZRC4DCX;
+				INFOPLIST_FILE = CifradoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zerhogie.CifradoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Cifrado;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		902922961F55D16500E40934 /* Build configuration list for PBXProject "Cifrado" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				902922BE1F55D16500E40934 /* Debug */,
+				902922BF1F55D16500E40934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		902922C01F55D16500E40934 /* Build configuration list for PBXNativeTarget "Cifrado" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				902922C11F55D16500E40934 /* Debug */,
+				902922C21F55D16500E40934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		902922C31F55D16500E40934 /* Build configuration list for PBXNativeTarget "CifradoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				902922C41F55D16500E40934 /* Debug */,
+				902922C51F55D16500E40934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		902922C61F55D16500E40934 /* Build configuration list for PBXNativeTarget "CifradoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				902922C71F55D16500E40934 /* Debug */,
+				902922C81F55D16500E40934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 902922931F55D16500E40934 /* Project object */;
+}
